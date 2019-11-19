@@ -1,0 +1,86 @@
+nav {
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    ul {
+        @include vendor('display', 'flex');
+        margin-bottom: 0;
+        list-style: none;
+        padding-left: 0;
+        // border: solid _size(border-width) _palette(border);
+        border-radius: _size(border-radius);
+        text-align: center;
+
+        li {
+            padding-left: 0;
+            // border-left: solid _size(border-width) _palette(border);
+
+            &:first-child {
+                border-left: 0;
+            }
+
+            a {
+                display: block;
+                min-width: 7.5rem;
+                height: 2.75rem;
+                line-height: 2.75rem;
+                padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
+                text-transform: uppercase;
+                letter-spacing: _font(letter-spacing);
+                font-size: 0.8rem;
+                border-bottom: 0;
+
+                &:hover {
+                    background-color: _palette(border-bg);
+                }
+
+                &:active {
+                    background-color: _palette(border-bg-alt);
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(xsmall) {
+    padding: 1.5rem 0;
+
+    .content {
+        .inner {
+            padding: 2.5rem 0;
+        }
+    }
+
+    nav {
+        ul {
+            @include vendor('flex-direction', 'column');
+            min-width: 10rem;
+            max-width: 100%;
+
+            li {
+                border-left: 0;
+                border-top: solid _size(border-width) _palette(border);
+
+                &:first-child {
+                    border-top: 0;
+                }
+
+                a {
+                    height: 3rem;
+                    line-height: 3rem;
+                    min-width: 0;
+                    width: 100%;
+                }
+            }
+        }
+
+        &.use-middle {
+            &:after {
+                display: none;
+            }
+        }
+    }
+}

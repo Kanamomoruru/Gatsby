@@ -12,14 +12,6 @@ const Header = (props) => (
                 <p>I am front-end developer who is based in Tokyo.</p>
             </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Home</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
-            </ul>
-        </nav>
     </header>
 )
 
