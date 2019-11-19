@@ -94,10 +94,10 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
-        <Navbar timeout={this.state.timeout}/>
+        <Navbar onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout}/>
           <div id="wrapper">
            
-            <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
+            <Header timeout={this.state.timeout} />
             <Main
               isArticleVisible={this.state.isArticleVisible}
               timeout={this.state.timeout}

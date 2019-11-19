@@ -43,6 +43,7 @@ const Navbar = (props) => (
 )
 
 Navbar.propTypes = {
+    onOpenArticle: PropTypes.func,
     timeout: PropTypes.bool
 }
 
