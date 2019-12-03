@@ -8,7 +8,7 @@ const Navbar = (props) => (
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Home</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="javascript:;" class="resume_btn"　onClick={() => {props.onOpenArticle('contact')}}>Resume</a></li>
             </ul>
         </nav>
         <ul className="icons">
