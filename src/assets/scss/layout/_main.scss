@@ -26,7 +26,7 @@
 			));
 			@include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
 			position: relative;
-			width: 40rem;
+			width: 70rem;
 			max-width: 100%;
 			background-color: transparentize(_palette(bg), 0.15);
 			border-radius: _size(border-radius);
@@ -107,5 +107,58 @@
 			article {
 				@include padding(2rem, 1.5rem, (1rem, 0, 0.5rem, 0));
 			}
+		}
+
+		.about_wrap {
+			display: flex;
+
+			.about_figure {
+				&_img {
+					-webkit-filter: grayscale(100%);
+					filter: grayscale(100%);
+					-webkit-transition: .3s ease-in-out;
+					transition: .3s ease-in-out;
+				}
+			}
+
+			.about_figure:hover .about_figure_img {
+				-webkit-filter: grayscale(0);
+				filter: grayscale(0);
+			}
+
+			&_intro {
+				margin: (_size(element-margin) * 1.25);
+
+				&--p {
+
+				}
+
+				&--ul {
+					display: grid;
+					grid-template-columns: repeat(2, minmax(140px, 200px));
+					margin-top: 20px;
+					overflow: hidden;
+					list-style: none;
+
+					.skill_list {
+						position: relative;
+						margin-bottom: 10px;
+						padding-left: 20px;
+						font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+						font-size: 13px;
+						color: #8c8c8c;
+						&::before {
+							content: "▹";
+							position: absolute;
+							left: 0px;
+							color: #24d6cf;
+							font-size: 14px;
+							line-height: 12px;
+						}
+					}
+				}
+			}
+
+			
 		}
 	}
