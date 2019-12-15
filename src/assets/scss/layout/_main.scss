@@ -112,6 +112,10 @@
 		.about_wrap {
 			display: flex;
 
+			@include breakpoint(medium) {
+				display:unset;
+			}
+
 			.about_figure {
 				&_img {
 					-webkit-filter: grayscale(100%);
@@ -128,10 +132,6 @@
 
 			&_intro {
 				margin: (_size(element-margin) * 1.25);
-
-				&--p {
-
-				}
 
 				&--ul {
 					display: grid;
@@ -157,8 +157,11 @@
 						}
 					}
 				}
+			}	
+		}
+		@include breakpoint(medium) {
+			.about_figure {
+				width: 300px;
 			}
-
-			
 		}
 	}

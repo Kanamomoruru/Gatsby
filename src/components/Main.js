@@ -100,7 +100,7 @@ class Main extends React.Component {
             </div>
             <div className="about_wrap_intro">
               <p className="about_wrap_intro--p">
-              Hello! I'm Kanata, a front end developer based in Tokyo, MA who enjoys thinking things that how I can make a creative and cool websites and shooting some videos.
+              Hello! I'm Kanata, a front end developer based in Tokyo, who enjoys thinking things that how I can make a creative and cool websites and shooting some videos.
               <br />
               Basicaly, I travel around the world to meet local people and to give me different way to think and perspective.
               <br />
