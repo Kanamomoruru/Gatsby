@@ -5,7 +5,7 @@ const Navbar = (props) => (
     <navbar id="navbar" style={props.timeout ? {display: 'none'} : {}}>
          <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Home</a></li>
+                <li><a>Home</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a href="javascript:;" class="resume_btn"　onClick={() => {props.onOpenArticle('contact')}}>Resume</a></li>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import video from "../images/test.mp4"
 
 import Navbar from '../components/Navbar'
 import Header from '../components/Header'
@@ -96,6 +97,8 @@ class IndexPage extends React.Component {
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
         <Navbar onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout}/>
           <div id="wrapper">
+
+       
            
             <Header timeout={this.state.timeout} />
             <Main
@@ -108,8 +111,22 @@ class IndexPage extends React.Component {
             />
             <Footer timeout={this.state.timeout} />
           </div>
-          <div id="bg">
-          </div>
+          {/* <div id="bg">
+          </div> */}
+          <video
+            className="video-player"
+            id="bg_video"
+            height="100%"
+            width="100%"
+            loop
+            muted
+            autoPlay
+          >
+            <source
+            src={video}
+            type="video/mp4"
+            />
+        </video>
         </div>
       </Layout>
     )
