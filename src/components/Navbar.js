@@ -8,16 +8,16 @@ const Navbar = (props) => (
                 <li><a>Home</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" class="resume_btn"　onClick={() => {props.onOpenArticle('contact')}}>Resume</a></li>
+                <li><a href="https://drive.google.com/open?id=1_pvgo84Fg4mF7lV1gzyCEB2iAXqhVMfN">Resume</a></li>
             </ul>
         </nav>
         <ul className="icons">
             <li>
                 <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
+                href="https://www.linkedin.com/in/kanata-shimomoto-026438160/"
+                className="icon fa-linkedin"
                 >
-                <span className="label">Twitter</span>
+                <span className="label">Linkedin</span>
                 </a>
             </li>
             <li>
@@ -32,7 +32,7 @@ const Navbar = (props) => (
             </li>
             <li>
                 <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/Kanamomoruru"
                 className="icon fa-github"
                 >
                 <span className="label">GitHub</span>

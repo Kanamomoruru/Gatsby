@@ -69,13 +69,13 @@ nav {
 
     nav {
         ul {
-            @include vendor('flex-direction', 'column');
+            // @include vendor('flex-direction', 'column');
             min-width: 10rem;
             max-width: 100%;
 
             li {
                 border-left: 0;
-                border-top: solid _size(border-width) _palette(border);
+                // border-top: solid _size(border-width) _palette(border);
 
                 &:first-child {
                     border-top: 0;
