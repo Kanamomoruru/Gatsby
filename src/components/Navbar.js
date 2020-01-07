@@ -1,11 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import mylogo from '../images/mylogo.png'
 
 const Navbar = (props) => (
     <navbar id="navbar" style={props.timeout ? {display: 'none'} : {}}>
+     
          <nav>
+         <div className="mylogo"><img src={mylogo} /></div>
             <ul>
-                <li><a>Home</a></li>
+                {/* <li><a></a></li> */}
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a href="https://drive.google.com/open?id=1_pvgo84Fg4mF7lV1gzyCEB2iAXqhVMfN">Resume</a></li>

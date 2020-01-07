@@ -1,6 +1,6 @@
 nav {
     position: absolute;
-    top: 0;
+    top: 10px;
     z-index: 4;
     width: 100%;
     display: flex;
@@ -42,6 +42,17 @@ nav {
                 }
             }
         }
+    }
+}
+
+.mylogo {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 1em;
+
+    img {
+        width: 100%;
     }
 }
 
