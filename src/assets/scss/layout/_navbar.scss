@@ -56,6 +56,39 @@ nav {
     }
 }
 
+.nav_container {
+    position: fixed;
+    right: 0;
+    flex-direction: column;
+    // bottom: 40px;
+}
+
+.email {
+    position: fixed;
+    bottom: 50px;
+    right: 1em;
+    z-index: 5;  
+    padding-right: 1em;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 90px;
+        background-color: #fff;
+        margin: 0px auto;
+    }
+
+    a {
+        font-size: 0.85rem;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+        writing-mode: vertical-lr
+    }
+}
+
+
+
 // .resume_btn {
 //   display: inline-block;
 //   color: #67c5ff;

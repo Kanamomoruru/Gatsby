@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import fwfs from '../images/fwfs.png'
+import vibes from '../images/vibes.png'
 import me2 from '../images/me2.jpg'
 
 class Main extends React.Component {
@@ -30,15 +30,76 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
+          {/* <ul className="projects">
+            <li className="image main projects_li">
+              <img src={fwfs} alt="" />
+            </li>
+            <li className="image main projects_li">
+              <img src={vibes} alt="" />
+            </li>
+            <li className="image main projects_li">
+              <img src={vibes} alt="" />
+            </li>
+          </ul> */}
+         
+
+         <div class="slide-wrap">
+
+<div class="iconbox slide-content">
+<div class="box-title">タイトル1</div>
+<div class="iconbox-wrap">
+<div class="box-content">
+<ul class="list">
+ 	<li>リスト1</li>
+ 	<li>リスト2</li>
+ 	<li>リスト3</li>
+</ul>
+</div>
+<div class="iconballoon">
+<div class="balloon">Hello！</div>
+<div class="icon"><img src="https://ponhiro.com/wp-content/uploads/2019/07/ponhiro-icon.png" alt="" width="402" height="399" /></div>
+</div>
+</div>
+</div>
+
+<div class="iconbox iconbox-pink slide-content">
+<div class="box-title box-head-pink">タイトル2</div>
+<div class="iconbox-wrap">
+<div class="box-content">
+<ol class="list-number">
+ 	<li>リスト1</li>
+ 	<li>リスト2</li>
+ 	<li>リスト3</li>
+ 	<li>リスト4</li>
+ 	<li>リスト5</li>
+</ol>
+</div>
+<div class="iconballoon">
+<div class="balloon">こんにちは！</div>
+<div class="icon"><img src="https://ponhiro.com/wp-content/uploads/2019/07/woman.png" alt="" width="600" height="600" /></div>
+</div>
+</div>
+</div>
+
+
+<div class="iconbox iconbox-blue slide-content">
+<div class="box-title box-head-blue">タイトル3</div>
+<div class="iconbox-wrap">
+<div class="box-content">
+
+それぞれのサイズを揃えると見た目が良くなりますよ！
+
+このカスタマイズはスマホユーザーが多いサイトにオススメです！
+
+</div>
+<div class="iconballoon">
+<div class="balloon">ポイント！</div>
+<div class="icon"><img src="https://ponhiro.com/wp-content/uploads/2019/07/man.png" alt="" width="600" height="600" /></div>
+</div>
+</div>
+</div>
+</div>
+
           {close}
         </article>
 

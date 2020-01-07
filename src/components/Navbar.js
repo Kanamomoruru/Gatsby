@@ -6,9 +6,8 @@ const Navbar = (props) => (
     <navbar id="navbar" style={props.timeout ? {display: 'none'} : {}}>
      
          <nav>
-         <div className="mylogo"><img src={mylogo} /></div>
-            <ul>
-                {/* <li><a></a></li> */}
+         <div className="mylogo"><img src={mylogo} alt="kanata"/></div>
+            <ul className="nav_container">
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a href="https://drive.google.com/open?id=1_pvgo84Fg4mF7lV1gzyCEB2iAXqhVMfN">Resume</a></li>
@@ -42,6 +41,9 @@ const Navbar = (props) => (
                 </a>
             </li>
         </ul>
+        <div className="email">
+          <a href="mailto:kanamoru0508@gmail.com">kanamoru0508@gmail.com</a>
+        </div>
     </navbar>
 )
 
