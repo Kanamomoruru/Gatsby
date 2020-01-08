@@ -44,62 +44,56 @@ class Main extends React.Component {
          
 
          <div class="slide-wrap">
+            <div class="iconbox slide-content">
+              <div class="box-title">Recently Project</div>
+              <div class="box-title2">Title 1</div>
+              <div class="iconbox-wrap">
+                <div class="box-content">
+                  <ul class="list">
+                    <li>リスト1</li>
+                    <li>リスト2</li>
+                    <li>リスト3</li>
+                  </ul>
+                </div>
+                <div class="iconballoon">
+                  <div class="icon"><img src={fwfs} alt="" width="200" height="200"/></div>
+                </div>
+              </div>
+            </div>
 
-<div class="iconbox slide-content">
-<div class="box-title">タイトル1</div>
-<div class="iconbox-wrap">
-<div class="box-content">
-<ul class="list">
- 	<li>リスト1</li>
- 	<li>リスト2</li>
- 	<li>リスト3</li>
-</ul>
-</div>
-<div class="iconballoon">
-<div class="balloon">Hello！</div>
-<div class="icon"><img src="https://ponhiro.com/wp-content/uploads/2019/07/ponhiro-icon.png" alt="" width="402" height="399" /></div>
-</div>
-</div>
-</div>
+            <div class="iconbox iconbox-pink slide-content">
+              <div class="box-title">Recently Project</div>
+              <div class="box-title2">Title 1</div>
+              <div class="iconbox-wrap">
+                <div class="box-content">
+                  <ol class="list-number">
+                    <li>リスト1</li>
+                    <li>リスト2</li>
+                    <li>リスト3</li>
+                    <li>リスト4</li>
+                    <li>リスト5</li>
+                  </ol>
+                </div>
+                <div class="iconballoon">
+                  <div class="icon"><img src={fwfs} alt="" width="200" height="200"/></div>
+                </div>
+              </div>
+            </div>
 
-<div class="iconbox iconbox-pink slide-content">
-<div class="box-title box-head-pink">タイトル2</div>
-<div class="iconbox-wrap">
-<div class="box-content">
-<ol class="list-number">
- 	<li>リスト1</li>
- 	<li>リスト2</li>
- 	<li>リスト3</li>
- 	<li>リスト4</li>
- 	<li>リスト5</li>
-</ol>
-</div>
-<div class="iconballoon">
-<div class="balloon">こんにちは！</div>
-<div class="icon"><img src="https://ponhiro.com/wp-content/uploads/2019/07/woman.png" alt="" width="600" height="600" /></div>
-</div>
-</div>
-</div>
-
-
-<div class="iconbox iconbox-blue slide-content">
-<div class="box-title box-head-blue">タイトル3</div>
-<div class="iconbox-wrap">
-<div class="box-content">
-
-それぞれのサイズを揃えると見た目が良くなりますよ！
-
-このカスタマイズはスマホユーザーが多いサイトにオススメです！
-
-</div>
-<div class="iconballoon">
-<div class="balloon">ポイント！</div>
-<div class="icon"><img src="https://ponhiro.com/wp-content/uploads/2019/07/man.png" alt="" width="600" height="600" /></div>
-</div>
-</div>
-</div>
-</div>
-
+            <div class="iconbox iconbox-blue slide-content">
+              <div class="box-title">Recently Project</div>
+              <div class="box-title2">Title 1</div>
+              <div class="iconbox-wrap">
+                <div class="box-content">
+                  それぞれのサイズを揃えると見た目が良くなりますよ！
+                  このカスタマイズはスマホユーザーが多いサイトにオススメです！
+                </div>
+                <div class="iconballoon">
+                  <div class="icon"><img src={fwfs} alt="" width="200" height="200"/></div>
+                </div>
+              </div>
+              </div>
+            </div>
           {close}
         </article>
 
