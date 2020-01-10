@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import video from "../images/test.mp4"
+import video from "../images/test2.mp4"
 
 import Navbar from '../components/Navbar'
 import Header from '../components/Header'

@@ -1,5 +1,5 @@
 #work {
-    height: 500px;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -12,29 +12,63 @@
 //     position: relative;
 
 // }
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    position: relative;
+    gap: 15px;
 
-.slide-wrap{
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display: flex;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-    overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-    padding:0 0 1em;
-    margin:0 0 2em 0;
-    scroll-behavior: smooth;
- }
- .slide-wrap .slide-content{
-    flex: 0 0 90%;
-    margin: 0 10px;
-    height:100%;
-    background-color: transparent;
- }
- @media screen and (max-width: 480px){
- .slide-wrap .slide-content {
-     flex: 0 0 88%;
-     margin: 0px 5px;
-     scroll-snap-align:center;
- }
- }
+    &_project {
+        transition-delay: 0ms;
+        visibility: visible;
+        opacity: 1;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
+        &_box {
+            box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            height: 100%;
+            background-color: rgb(23, 42, 69);
+            padding: 2rem 1.75rem;
+            border-radius: 3px;
+            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
+            .project_title {
+                font-size: 22px;
+                color: rgb(204, 214, 246);
+                margin: 0px 0px 10px;
+            }
+
+            .project_detail {
+                font-size: 17px;
+                color: rgb(168, 178, 209);
+            }
+
+            .project_list {
+                display: flex;
+                align-items: flex-end;
+                -webkit-box-flex: 1;
+                flex-grow: 1;
+                flex-wrap: wrap;
+                padding: 0px;
+                margin: 20px 0px 0px;
+                list-style: none;
+
+                li {
+                    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+                    font-size: 12px;
+                    color: rgb(136, 146, 176);
+                    line-height: 1.75;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}

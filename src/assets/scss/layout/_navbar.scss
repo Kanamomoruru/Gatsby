@@ -34,7 +34,9 @@ nav {
                 border-bottom: 0;
 
                 &:hover {
-                    background-color: _palette(border-bg);
+                    // background-color: _palette(border-bg);
+                    color: #24d6cf;
+                    transition: ease-in .5s;
                 }
 
                 &:active {

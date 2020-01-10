@@ -41,59 +41,126 @@ class Main extends React.Component {
               <img src={vibes} alt="" />
             </li>
           </ul> */}
+
+          <div className="projects">
+            <div className="projects_project">
+              <div className="projects_project_box">
+                <header>
+                  <div></div>
+                  <h5 className="project_title">Lorem ipsum</h5>
+                  <div className="project_detail">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  </div>
+                </header>
+                <footer>
+                  <ul className="project_list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Firebase</li>
+                  </ul>
+                </footer>
+              </div>
+            </div>
+            <div className="projects_project">
+              <div className="projects_project_box">
+                <header>
+                  <div></div>
+                  <h5 className="project_title">Lorem ipsum</h5>
+                  <div className="project_detail">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  </div>
+                </header>
+                <footer>
+                  <ul className="project_list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Firebase</li>
+                  </ul>
+                </footer>
+              </div>
+            </div>
+            <div className="projects_project">
+              <div className="projects_project_box">
+                <header>
+                  <div></div>
+                  <h5 className="project_title">Lorem ipsum</h5>
+                  <div className="project_detail">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  </div>
+                </header>
+                <footer>
+                  <ul className="project_list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Firebase</li>
+                  </ul>
+                </footer>
+              </div>
+            </div>
+            <div className="projects_project">
+              <div className="projects_project_box">
+                <header>
+                  <div></div>
+                  <h5 className="project_title">Lorem ipsum</h5>
+                  <div className="project_detail">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  </div>
+                </header>
+                <footer>
+                  <ul className="project_list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Firebase</li>
+                  </ul>
+                </footer>
+              </div>
+            </div>
+            <div className="projects_project">
+              <div className="projects_project_box">
+                <header>
+                  <div></div>
+                  <h5 className="project_title">Lorem ipsum</h5>
+                  <div className="project_detail">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  </div>
+                </header>
+                <footer>
+                  <ul className="project_list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Firebase</li>
+                  </ul>
+                </footer>
+              </div>
+            </div>
+            <div className="projects_project">
+              <div className="projects_project_box">
+                <header>
+                  <div></div>
+                  <h5 className="project_title">Lorem ipsum</h5>
+                  <div className="project_detail">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  </div>
+                </header>
+                <footer>
+                  <ul className="project_list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Firebase</li>
+                  </ul>
+                </footer>
+              </div>
+            </div>
+          </div>
          
 
-         <div class="slide-wrap">
-            <div class="iconbox slide-content">
-              <div class="box-title">Recently Project</div>
-              <div class="box-title2">Title 1</div>
-              <div class="iconbox-wrap">
-                <div class="box-content">
-                  <ul class="list">
-                    <li>リスト1</li>
-                    <li>リスト2</li>
-                    <li>リスト3</li>
-                  </ul>
-                </div>
-                <div class="iconballoon">
-                  <div class="icon"><img src={fwfs} alt="" width="200" height="200"/></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="iconbox iconbox-pink slide-content">
-              <div class="box-title">Recently Project</div>
-              <div class="box-title2">Title 1</div>
-              <div class="iconbox-wrap">
-                <div class="box-content">
-                  <ol class="list-number">
-                    <li>リスト1</li>
-                    <li>リスト2</li>
-                    <li>リスト3</li>
-                    <li>リスト4</li>
-                    <li>リスト5</li>
-                  </ol>
-                </div>
-                <div class="iconballoon">
-                  <div class="icon"><img src={fwfs} alt="" width="200" height="200"/></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="iconbox iconbox-blue slide-content">
-              <div class="box-title">Recently Project</div>
-              <div class="box-title2">Title 1</div>
-              <div class="iconbox-wrap">
-                <div class="box-content">
-                  それぞれのサイズを揃えると見た目が良くなりますよ！
-                  このカスタマイズはスマホユーザーが多いサイトにオススメです！
-                </div>
-                <div class="iconballoon">
-                  <div class="icon"><img src={fwfs} alt="" width="200" height="200"/></div>
-                </div>
-              </div>
-              </div>
-            </div>
+         
           {close}
         </article>
 
