@@ -35,7 +35,7 @@ nav {
 
                 &:hover {
                     // background-color: _palette(border-bg);
-                    color: #24d6cf;
+                    color: $mint;
                     transition: ease-in .5s;
                 }
 
@@ -85,7 +85,12 @@ nav {
         font-size: 0.85rem;
         letter-spacing: 2px;
         padding-bottom: 10px;
-        writing-mode: vertical-lr
+        writing-mode: vertical-lr;
+
+        &:hover {
+            color: $mint;
+            transition: ease-in .5s;
+        }
     }
 }
 

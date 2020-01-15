@@ -146,12 +146,12 @@
 						padding-left: 20px;
 						font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
 						font-size: 13px;
-						color: #8c8c8c;
+						color: $gray;
 						&::before {
 							content: "▹";
 							position: absolute;
 							left: 0px;
-							color: #24d6cf;
+							color: $mint;
 							font-size: 14px;
 							line-height: 12px;
 						}

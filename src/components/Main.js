@@ -30,17 +30,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          {/* <ul className="projects">
-            <li className="image main projects_li">
-              <img src={fwfs} alt="" />
-            </li>
-            <li className="image main projects_li">
-              <img src={vibes} alt="" />
-            </li>
-            <li className="image main projects_li">
-              <img src={vibes} alt="" />
-            </li>
-          </ul> */}
 
           <div className="projects">
             <div className="projects_project">
@@ -52,13 +41,23 @@ class Main extends React.Component {
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   </div>
                 </header>
-                <footer>
+                <footer className="project_footer">
                   <ul className="project_list">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JS</li>
                     <li>Firebase</li>
                   </ul>
+                  <div className="project_icon">
+                    <a  href="https://github.com/Kanamomoruru"
+                      className="icon fa-github git">
+                      <span className="label">GitHub</span>
+                    </a>
+                    <a href="https://github.com/Kanamomoruru" 
+                      className="icon fa-external-link external">
+                        <span className="label">external</span>
+                    </a>
+                  </div>
                 </footer>
               </div>
             </div>
@@ -191,6 +190,8 @@ class Main extends React.Component {
                 <li className="skill_list">JavaScript (ES6+)</li>
                 <li className="skill_list">HTML5 & (S)CSS</li>
                 <li className="skill_list">Vue</li>
+                <li className="skill_list">Angular5</li>
+                <li className="skill_list">Ionic</li>
                 <li className="skill_list">PHP</li>
                 <li className="skill_list">Wordpress</li>
                 <li className="skill_list">Gatsby</li>

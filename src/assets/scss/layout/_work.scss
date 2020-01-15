@@ -3,15 +3,6 @@
     overflow: hidden;
 }
 
-// .projects {
-//     display: grid;
-//     grid-template-columns: repeat(3, 1fr);
-//     grid-template-rows: repeat(2, 1fr);
-//     grid-column-gap: 10px;
-//     grid-row-gap: 10px;
-//     position: relative;
-
-// }
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -35,20 +26,26 @@
             align-items: flex-start;
             position: relative;
             height: 100%;
-            background-color: rgb(23, 42, 69);
+            background-color: $navy;
             padding: 2rem 1.75rem;
             border-radius: 3px;
             transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 
             .project_title {
                 font-size: 22px;
-                color: rgb(204, 214, 246);
+                color: $white-100;
                 margin: 0px 0px 10px;
             }
 
             .project_detail {
                 font-size: 17px;
-                color: rgb(168, 178, 209);
+                color: $white-200;
+            }
+
+            .project_footer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             .project_list {
@@ -64,9 +61,26 @@
                 li {
                     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
                     font-size: 12px;
-                    color: rgb(136, 146, 176);
+                    color: $white-300;
                     line-height: 1.75;
                     margin-right: 15px;
+                }
+            }
+
+            .project_icon {
+                margin: 20px 0px 0px;
+                position: absolute;
+                right: 50px;
+                bottom: 30px;
+                color: $white-100;
+
+                .git, .external {
+                    padding: 5px;
+
+                    &:hover {
+                        color: $mint;
+                        transition: ease-in .5s;
+                    }
                 }
             }
         }
