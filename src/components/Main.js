@@ -144,6 +144,7 @@ class Main extends React.Component {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JS</li>
+                    <li>GSAP</li>
                   </ul>
                   <div className="project_icon">
                     <a href="https://kanamomoruru.github.io" 
