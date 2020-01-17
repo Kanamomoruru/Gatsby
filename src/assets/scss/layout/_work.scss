@@ -10,11 +10,10 @@
     gap: 15px;
 
     &_project {
-        transition-delay: 0ms;
-        visibility: visible;
-        opacity: 1;
-        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+        transition-duration: 0.3s;
+        &:hover {
+            transform:translateY(-10px);
+        }
 
         &_box {
             box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
@@ -27,13 +26,15 @@
             position: relative;
             height: 100%;
             background-color: $navy;
-            padding: 2rem 1.75rem;
+            padding: 1rem 1rem;
             border-radius: 3px;
             transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 
             .project_title {
-                font-size: 22px;
+                font-size: 20px;
+                font-weight: 600;
                 color: $white-100;
+                letter-spacing: 1px;
                 margin: 0px 0px 10px;
             }
 

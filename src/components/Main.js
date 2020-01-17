@@ -1,7 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import fwfs from '../images/fwfs.png'
-import vibes from '../images/vibes.png'
 import me2 from '../images/me2.jpg'
 
 class Main extends React.Component {
@@ -36,24 +34,19 @@ class Main extends React.Component {
               <div className="projects_project_box">
                 <header>
                   <div></div>
-                  <h5 className="project_title">Lorem ipsum</h5>
+                  <div className="project_title">VIBES MEDIA</div>
                   <div className="project_detail">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   </div>
                 </header>
                 <footer className="project_footer">
                   <ul className="project_list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>Firebase</li>
+                    <li>Nuxt</li>
+                    <li>Python</li>
+                    <li>AWS</li>
                   </ul>
                   <div className="project_icon">
-                    <a  href="https://github.com/Kanamomoruru"
-                      className="icon fa-github git">
-                      <span className="label">GitHub</span>
-                    </a>
-                    <a href="https://github.com/Kanamomoruru" 
+                    <a href="https://vibes.media" 
                       className="icon fa-external-link external">
                         <span className="label">external</span>
                     </a>
@@ -65,7 +58,83 @@ class Main extends React.Component {
               <div className="projects_project_box">
                 <header>
                   <div></div>
-                  <h5 className="project_title">Lorem ipsum</h5>
+                  <div className="project_title">EASY TETRIS</div>
+                  <div className="project_detail">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  </div>
+                </header>
+                <footer>
+                  <ul className="project_list">
+                    <li>Vue</li>
+                    <li>SCSS</li>
+                  </ul>
+                  <div className="project_icon">
+                    <a  href="https://github.com/Kanamomoruru/vue-easyTetris"
+                      className="icon fa-github git">
+                      <span className="label">GitHub</span>
+                    </a>
+                    <a href="https://kanata-easy-tetris.netlify.com" 
+                      className="icon fa-external-link external">
+                        <span className="label">external</span>
+                    </a>
+                  </div>
+                </footer>
+              </div>
+            </div>
+            <div className="projects_project">
+              <div className="projects_project_box">
+                <header>
+                  <div></div>
+                  <div className="project_title">Freewill HP</div>
+                  <div className="project_detail">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  </div>
+                </header>
+                <footer>
+                  <ul className="project_list">
+                    <li>Wordpress</li>
+                    <li>SCSS</li>
+                    <li>JS</li>
+                    <li>Docker</li>
+                  </ul>
+                  <div className="project_icon">
+                    <a href="https://free-will.co" 
+                      className="icon fa-external-link external">
+                        <span className="label">external</span>
+                    </a>
+                  </div>
+                </footer>
+              </div>
+            </div>
+            <div className="projects_project">
+              <div className="projects_project_box">
+                <header>
+                  <div></div>
+                  <div className="project_title">Weather app</div>
+                  <div className="project_detail">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  </div>
+                </header>
+                <footer>
+                  <ul className="project_list">
+                    <li>React</li>
+                    <li>Firebase</li>
+                    <li>Weather API</li>
+                  </ul>
+                  <div className="project_icon">
+                    <a href="https://github.com/Kanamomoruru/WeatherApp" 
+                      className="icon fa-github git">
+                        <span className="label">GitHub</span>
+                    </a>
+                  </div>
+                </footer>
+              </div>
+            </div>
+            <div className="projects_project">
+              <div className="projects_project_box">
+                <header>
+                  <div></div>
+                  <div className="project_title">Personal Website V1</div>
                   <div className="project_detail">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   </div>
@@ -75,27 +144,17 @@ class Main extends React.Component {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JS</li>
-                    <li>Firebase</li>
                   </ul>
-                </footer>
-              </div>
-            </div>
-            <div className="projects_project">
-              <div className="projects_project_box">
-                <header>
-                  <div></div>
-                  <h5 className="project_title">Lorem ipsum</h5>
-                  <div className="project_detail">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <div className="project_icon">
+                    <a href="https://kanamomoruru.github.io" 
+                      className="icon fa-github git">
+                        <span className="label">GitHub</span>
+                    </a>
+                    <a href="https://github.com/Kanamomoruru/Kanamomoruru.github.io" 
+                      className="icon fa-external-link external">
+                        <span className="label">external</span>
+                    </a>
                   </div>
-                </header>
-                <footer>
-                  <ul className="project_list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>Firebase</li>
-                  </ul>
                 </footer>
               </div>
             </div>
@@ -103,45 +162,7 @@ class Main extends React.Component {
               <div className="projects_project_box">
                 <header>
                   <div></div>
-                  <h5 className="project_title">Lorem ipsum</h5>
-                  <div className="project_detail">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                  </div>
-                </header>
-                <footer>
-                  <ul className="project_list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>Firebase</li>
-                  </ul>
-                </footer>
-              </div>
-            </div>
-            <div className="projects_project">
-              <div className="projects_project_box">
-                <header>
-                  <div></div>
-                  <h5 className="project_title">Lorem ipsum</h5>
-                  <div className="project_detail">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                  </div>
-                </header>
-                <footer>
-                  <ul className="project_list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>Firebase</li>
-                  </ul>
-                </footer>
-              </div>
-            </div>
-            <div className="projects_project">
-              <div className="projects_project_box">
-                <header>
-                  <div></div>
-                  <h5 className="project_title">Lorem ipsum</h5>
+                  <div className="project_title">Lorem ipsum</div>
                   <div className="project_detail">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   </div>
