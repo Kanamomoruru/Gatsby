@@ -163,18 +163,23 @@ class Main extends React.Component {
               <div className="projects_project_box">
                 <header>
                   <div></div>
-                  <div className="project_title">Lorem ipsum</div>
+                  <div className="project_title">FWFS</div>
                   <div className="project_detail">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   </div>
                 </header>
                 <footer>
                   <ul className="project_list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>Firebase</li>
+                    <li>Nuxt</li>
+                    <li>Python</li>
+                    <li>AWS</li>
                   </ul>
+                  <div className="project_icon">
+                    <a href="https://www.freewill-freespace.com/" 
+                      className="icon fa-external-link external">
+                        <span className="label">external</span>
+                    </a>
+                  </div>
                 </footer>
               </div>
             </div>
