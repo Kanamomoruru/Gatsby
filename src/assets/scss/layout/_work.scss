@@ -26,7 +26,7 @@
             position: relative;
             height: 100%;
             background-color: $navy;
-            padding: 1rem 1rem;
+            padding: 2rem 2rem;
             border-radius: 3px;
             transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 
@@ -72,7 +72,7 @@
                 margin: 20px 0px 0px;
                 position: absolute;
                 right: 50px;
-                bottom: 30px;
+                bottom: 13px;
                 color: $white-100;
 
                 .git, .external {
