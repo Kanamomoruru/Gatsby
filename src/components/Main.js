@@ -36,7 +36,7 @@ class Main extends React.Component {
                   <div></div>
                   <div className="project_title">VIBES MEDIA</div>
                   <div className="project_detail">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p>A startup media service which focuses on real news with implementing SDGs.</p>
                   </div>
                 </header>
                 <footer className="project_footer">
@@ -165,7 +165,7 @@ class Main extends React.Component {
                   <div></div>
                   <div className="project_title">FWFS</div>
                   <div className="project_detail">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p>A startup accelerator to give success to someone who have a startup idea and the same time implementing SDGs.</p>
                   </div>
                 </header>
                 <footer>
