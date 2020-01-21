@@ -15,5 +15,5 @@ A second Itineration of my portfolio using Gatsby
 
 
 ```sh
-npm run develop
+gatsby develop
 ```
