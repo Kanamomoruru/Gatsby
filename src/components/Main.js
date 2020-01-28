@@ -60,7 +60,7 @@ class Main extends React.Component {
                   <div></div>
                   <div className="project_title">EASY TETRIS</div>
                   <div className="project_detail">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p>A tile-matching puzzle game which is famous all over the world and using vue.js cdn. </p>
                   </div>
                 </header>
                 <footer>
@@ -87,7 +87,7 @@ class Main extends React.Component {
                   <div></div>
                   <div className="project_title">Freewill HP</div>
                   <div className="project_detail">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p>A home page which is my previous company's and using wordpress.</p>
                   </div>
                 </header>
                 <footer>
@@ -110,21 +110,24 @@ class Main extends React.Component {
               <div className="projects_project_box">
                 <header>
                   <div></div>
-                  <div className="project_title">Weather app</div>
+                  <div className="project_title">Minesweeper</div>
                   <div className="project_detail">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p>A single-player puzzle game. Using Vue.js</p>
                   </div>
                 </header>
                 <footer>
                   <ul className="project_list">
-                    <li>React</li>
-                    <li>Firebase</li>
-                    <li>Weather API</li>
+                    <li>Vue</li>
+                    <li>SCSS</li>
                   </ul>
                   <div className="project_icon">
-                    <a href="https://github.com/Kanamomoruru/WeatherApp" 
+                    <a href="https://github.com/Kanamomoruru/vue-minesweeper" 
                       className="icon fa-github git">
                         <span className="label">GitHub</span>
+                    </a>
+                    <a href="https://kanata-minesweeper.netlify.com" 
+                      className="icon fa-external-link external">
+                        <span className="label">external</span>
                     </a>
                   </div>
                 </footer>
@@ -136,7 +139,7 @@ class Main extends React.Component {
                   <div></div>
                   <div className="project_title">Personal Website V1</div>
                   <div className="project_detail">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p>My first portfolio website I designed and built in 2017. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.</p>
                   </div>
                 </header>
                 <footer>
