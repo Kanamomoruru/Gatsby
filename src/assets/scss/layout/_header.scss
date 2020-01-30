@@ -57,6 +57,11 @@
 			border-bottom-width: _size(border-width);
 			max-width: 100%;
 
+			@media only screen and (max-width: 850px) {
+			border-top-width: 0px;
+			border-bottom-width: 0px;
+			}
+
 			.inner {
 				@include vendor('transition', (
 					'max-height #{_duration(intro)} ease',
