@@ -10,7 +10,7 @@ const Navbar = (props) => (
             <ul className="nav_container">
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                {/* <li><a href="https://drive.google.com/open?id=1_pvgo84Fg4mF7lV1gzyCEB2iAXqhVMfN">Resume</a></li> */}
+                <li><a href="https://drive.google.com/file/d/17ILrtmPqZcq4pMXjDgZ0XRbVJfm1NopZ/view?usp=sharing">Resume</a></li>
             </ul>
         </nav>
         <ul className="icons">
